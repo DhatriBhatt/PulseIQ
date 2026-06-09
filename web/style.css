@@ -325,3 +325,36 @@ button{
     transition:0.3s;
     border-color:#38bdf8;
 }
+/* roadmap - page */
+.roadmap-page{
+    padding: 80px;
+    text-align: center;
+}
+.roadmap-page h1{
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+.roadmap-page p{
+    max-width:850px;
+    margin:auto;
+    color:#cbd5e1;
+    font-size:18px;
+    line-height:1.6;
+}
+.roadmap-container{
+    max-width:700px;
+    margin:50px auto;
+}
+.roadmap-item{
+    background-color:#1e293b;
+    border:1px solid 
+    #334155;
+    padding:20px;
+    margin-bottom:15px;
+    border-radius:12px;
+    text-align:left;
+}
+.completed{
+    border-color:#38bdf8;
+    color:#38bdf8;
+}
