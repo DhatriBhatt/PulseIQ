@@ -1,0 +1,107 @@
+/* Remove default browser spacing */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+/* Entire website */
+body{
+
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #0f172a;
+    color: White;
+}
+/* Navigation Bar */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 80px;
+}
+/* Navigation menu */
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+/* Hero Section */
+.hero{
+    min-height:70vh;
+    padding:20px;
+}
+/* Main Content */
+.hero-content{
+    text-align:center;
+    margin-top:80px;
+}
+/* Main Heading */
+.hero-content h1{
+    font-size:60px;
+    max-width:900px;
+    margin:auto;
+}
+/* Description */
+.hero-content p{
+    margin-top:20px;
+    font-size:20px;
+    color:#cbd5e1;
+    max-width:800px;
+    margin-left:auto;
+    margin-right:auto;
+}
+/* Buttons */
+.buttons{
+    margin-top:30px;
+}
+
+button{
+    padding:12px 25px;
+    border:none;
+    border-radius:8px;
+    cursor: pointer;
+    margin:10px;
+    font-size:16px;
+}
+/* Primary Button */
+button{
+    background-color:#3b82f6;
+    color:white;
+}
+/* Secondary Button */
+.outline{
+    background:transparent;
+    border:1px solid white;
+}
+/* Metrics Section */
+.metrics{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding:40px 80px;
+    flex-wrap:wrap;
+}
+/* Individual Metric Card */
+.card{
+    background-color: #1e293b;
+    width: 230px;
+    padding: 30px;
+    border-radius: 16px;
+    text-align: center;
+    border:1px solid #334155;
+}
+/* Metric Number */
+.card h3{
+    font-size:36px;
+    color:#38bdf8;
+    margin-bottom:10px;
+}
+/* Metric Label */
+.card p{
+    color:#cbd5e1;
+}
+/* Card Hover Effect */
+.card:hover{
+    transform:translateY(-8px);
+    transition:0.3s;
+    border-color:#38bdf8;
+}
