@@ -150,3 +150,47 @@ button{
     font-size:18px;
     line-height:1.6;
 }
+/* Business Problem */
+.problem{
+    padding: 80px;
+    text-align: center;
+}
+.problem h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.problem-intro{
+    max-width: 800px;
+    margin: auto;
+    color:#cbd5e1;
+    font-size: 18px;
+    line-height: 1.6;
+}
+.problem-container{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    flex-wrap:wrap;
+    margin-top:50px;
+}
+
+.problem-card{
+    width:250px;
+    background-color:#1e293b;
+    padding:25px;
+    border-radius:15px;
+    border:1px solid #334155;
+}
+.problem-card h3{
+    color:#38bdf8;
+    margin-bottom:15px;
+}
+.problem-card p{
+    color:#cbd5e1;
+    line-height:1.5;
+}
+.problem-card:hover{
+    transform:translateY(-10px);
+    transition:0.3s;
+    border-color:#38bdf8;
+}
