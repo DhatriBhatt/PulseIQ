@@ -194,3 +194,39 @@ button{
     transition:0.3s;
     border-color:#38bdf8;
 }
+/* tech-stack */
+.tech-stack{
+    padding: 80px;
+    text-align: center;
+}
+.tech-stack h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.tech-intro{
+    max-width: 750px;
+    margin: auto;
+    color: #cbd5e1;
+    font-size: 18px;
+    line-height: 1.6;
+}
+.tech-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.tech-card{
+    background-color:#020617;
+    border:1px solid #334155;
+    color:#38bdf8;
+    padding:18px 25px;
+    border-radius:30px;
+    font-weight:bold;
+}
+.tech-card:hover{
+    background-color:#38bdf8;
+    color:#020617;
+    transition:0.3s;
+}
