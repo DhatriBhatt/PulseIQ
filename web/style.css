@@ -24,6 +24,14 @@ nav ul{
     list-style: none;
     gap: 25px;
 }
+nav a{
+    color:white;
+    text-decoration:none;
+}
+
+nav a:hover{
+    color:#38bdf8;
+}
 /* Hero Section */
 .hero{
     min-height:70vh;
