@@ -223,13 +223,13 @@ button{
     justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
-    margin-top: 10px;
+    margin-top: 45px;
 }
 .tech-card{
     background-color:#020617;
     border:1px solid #334155;
     color:#38bdf8;
-    padding:18px 25px;
+    padding:18px 45px;
     border-radius:30px;
     font-weight:bold;
 }
@@ -237,4 +237,48 @@ button{
     background-color:#38bdf8;
     color:#020617;
     transition:0.3s;
+}
+/* Features.html - features */
+.features{
+    padding:80px;
+    text-align:center;
+}
+.features h2{
+    font-size:40px;
+    margin-bottom:20px;
+}
+.features-intro{
+    max-width:800px;
+    margin:auto;
+    color:#cbd5e1;
+    font-size:18px;
+    line-height:1.6;
+}
+.features-container{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:25px;
+    max-width:1100px;
+    margin:45px auto 0 auto;
+  
+}
+.feature-card{
+    background:linear-gradient(145deg, #1e293b, #020617);
+    border:1px solid #334155;
+    padding: 30px;
+    border-radius:18px;
+    text-align:left;
+}
+.feature-card h3{
+    color:#38bdf8;
+    margin-bottom:15px;
+}
+.feature-card p{
+    color:#cbd5e1;
+    line-height: 1.6;
+}
+.feature-card:hover{
+    transform:translateY(-8px);
+    transition:0.3s;
+    border-color:#38bdf8;
 }
