@@ -48,3 +48,19 @@ OrderStatus VARCHAR(20),
 	REFERENCES Stores(StoreID));
 
 SELECT * FROM Orders;
+
+CREATE TABLE Order_Items (
+OrderItemID VARCHAR(10) PRIMARY KEY,
+OrderID VARCHAR(10),
+ProductID VARCHAR(10),
+Quantity  INT,
+UnitPrice DECIMAL(10,2),
+
+	CONSTRAINT FK_Order_Items_Orders
+	FOREIGN KEY(OrderID)
+	REFERENCES Orders(OrderID),
+
+	CONSTRAINT FK_Order_Items_Products
+	FOREIGN KEY(ProductID)
+	REFERENCES Products(ProductID));
+
