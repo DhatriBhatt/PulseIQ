@@ -1,0 +1,29 @@
+CREATE DATABASE PulseIQDB;
+GO
+USE  PulseIQDB;
+GO
+
+
+-- CREATING TABLES --
+ CREATE TABLE Customers (
+ CustomerID VARCHAR(10) PRIMARY KEY,
+ FirstName VARCHAR(50), 
+ LastName VARCHAR(50),
+ Gender VARCHAR(20),
+ AgeGroup VARCHAR(20),
+ City VARCHAR(50),
+ LoyaltyTier VARCHAR(20),
+ SignupDate DATE);
+
+CREATE TABLE Stores(
+StoreID VARCHAR(10) PRIMARY KEY,
+StoreName VARCHAR(50),
+City VARCHAR(50),
+Provience VARCHAR(50));
+
+CREATE TABLE Products(
+ProductID VARCHAR(10) PRIMARY KEY,
+ProductName VARCHAR(100),
+Category VARCHAR(50),
+UnitCost DECIMAL(10,2),
+UnitPrice DECIMAL(10,2));
