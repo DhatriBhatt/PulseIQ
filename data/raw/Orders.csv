@@ -1,0 +1,11 @@
+﻿OrderID,CustomerID,OrderDate,Channel,StoreID,TotalAmount,OrderStatus
+O001,C001,2025-01-05,Online,S001,79,Delivered
+O002,C002,2025-01-10,Store,S004,59,Delivered
+O003,C003,2025-01-12,Online,S002,128,Delivered
+O004,C004,2025-01-18,Store,S003,64,Delivered
+O005,C005,2025-02-01,Online,S001,89,Returned
+O006,C006,2025-02-07,Store,S005,49,Delivered
+O007,C007,2025-02-11,Online,S004,118,Delivered
+O008,C008,2025-02-20,Store,S002,59,Cancelled
+O009,C009,2025-03-01,Online,S001,138,Delivered
+O010,C010,2025-03-05,Store,S003,64,Delivered
