@@ -101,3 +101,20 @@ CREATE TABLE Returns (
         REFERENCES Products(ProductID)
 );
 
+CREATE TABLE Customer_Feedback (
+    FeedbackID VARCHAR(10) PRIMARY KEY,
+    CustomerID VARCHAR(10),
+    OrderID VARCHAR(10),
+    FeedbackDate DATE,
+    Rating INT,
+    ReviewText VARCHAR(500),
+    Sentiment VARCHAR(20),
+
+    CONSTRAINT FK_Feedback_Customers
+        FOREIGN KEY (CustomerID)
+        REFERENCES Customers(CustomerID),
+
+    CONSTRAINT FK_Feedback_Orders
+        FOREIGN KEY (OrderID)
+        REFERENCES Orders(OrderID)
+);
