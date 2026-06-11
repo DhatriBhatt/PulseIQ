@@ -64,3 +64,22 @@ UnitPrice DECIMAL(10,2),
 	FOREIGN KEY(ProductID)
 	REFERENCES Products(ProductID));
 
+CREATE TABLE Support_Tickets (
+    TicketID VARCHAR(10) PRIMARY KEY,
+    CustomerID VARCHAR(10),
+    OrderID VARCHAR(10),
+    TicketDate DATE,
+    IssueType VARCHAR(50),
+    Priority VARCHAR(20),
+    Status VARCHAR(20),
+    ResponseTimeHours INT,
+    ResolutionTimeHours INT,
+
+    CONSTRAINT FK_Tickets_Customers
+        FOREIGN KEY (CustomerID)
+        REFERENCES Customers(CustomerID),
+
+    CONSTRAINT FK_Tickets_Orders
+        FOREIGN KEY (OrderID)
+        REFERENCES Orders(OrderID)
+);
