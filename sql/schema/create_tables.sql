@@ -83,3 +83,21 @@ CREATE TABLE Support_Tickets (
         FOREIGN KEY (OrderID)
         REFERENCES Orders(OrderID)
 );
+
+CREATE TABLE Returns (
+    ReturnID VARCHAR(10) PRIMARY KEY,
+    OrderID VARCHAR(10),
+    ProductID VARCHAR(10),
+    ReturnDate DATE,
+    ReturnReason VARCHAR(50),
+    RefundAmount DECIMAL(10,2),
+
+    CONSTRAINT FK_Returns_Orders
+        FOREIGN KEY (OrderID)
+        REFERENCES Orders(OrderID),
+
+    CONSTRAINT FK_Returns_Products
+        FOREIGN KEY (ProductID)
+        REFERENCES Products(ProductID)
+);
+
