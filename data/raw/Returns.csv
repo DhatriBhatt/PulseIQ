@@ -1,0 +1,6 @@
+﻿ReturnID,OrderID,ProductID,ReturnDate,ReturnReason,RefundAmount
+R001,O005,P008,2025-02-05,Wrong Size,89
+R002,O008,P009,2025-02-22,Changed Mind,59
+R003,O003,P005,2025-01-16,Damaged Item,29
+R004,O010,P010,2025-03-08,Product Quality Issue,64
+R005,O004,P010,2025-01-22,Product Quality Issue,64
