@@ -27,3 +27,24 @@ ProductName VARCHAR(100),
 Category VARCHAR(50),
 UnitCost DECIMAL(10,2),
 UnitPrice DECIMAL(10,2));
+
+-- Phase: Create Transaction Tables ---
+
+CREATE TABLE Orders(
+OrderID VARCHAR(10) PRIMARY KEY,
+CustomerID VARCHAR(10),
+OrderDate DATE,
+Channel VARCHAR(20),
+StoreID VARCHAR(10),
+TotalAmount DECIMAL(10,2),
+OrderStatus VARCHAR(20),
+
+	CONSTRAINT FK_Orders_Customers
+	FOREIGN KEY(CustomerID)
+	REFERENCES Customers(CustomerID),
+
+	CONSTRAINT FK_Orders_Stores
+	FOREIGN KEY(StoreID)
+	REFERENCES Stores(StoreID));
+
+SELECT * FROM Orders;
