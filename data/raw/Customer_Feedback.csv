@@ -1,0 +1,11 @@
+﻿FeedbackID,CustomerID,OrderID,FeedbackDate,Rating,ReviewText,Sentiment
+F001,C001,O001,2025-01-08,4,Delivery was slightly late but product quality was good.,Positive
+F002,C002,O002,2025-01-12,4,Store staff was helpful and checkout was quick,Positive
+F003,C003,O003,2025-01-17,2,One item arrived damaged and I had to contact support.,Negative
+F004,C004,O004,2025-01-23,3,Jeans were okay but sizing was not perfect.,Netural
+F005,C005,O005,2025-02-06,2,Jacket size was wrong and I had to return it.,Negative
+F006,C006,O006,2025-02-10,3,Product was fine but availability was limited.,Netural
+F007,C007,O007,2025-02-15,4,Payment issue was fixed quickly by support.,Positive
+F008,C008,O008,2025-02-23,1,Order was cancelled and refund took too long.,Negative
+F009,C009,O009,2025-03-03,2,Delivery was late and support response was slow.,Negative
+F010,C010,O010,2025-03-09,3,Store experience could have been better.,Netural
