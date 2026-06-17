@@ -1,0 +1,11 @@
+﻿CustomerID,FirstName,LastName,Gender,AgeGroup,City,Province,LoyaltyTier,SignupDate
+C001,Emma,Wilson,Female,25-34,Toronto,Ontario,Gold,2024-01-15
+C002,Liam ,Brown ,Male,18-24,Vaughan,Ontario,Silver,2024-02-10
+C003,Olivia,Taylor,Female,35-44,Mississauga,Ontario,Gold,2024-03-05
+C004,Noah,Anderson,Male,25-34,Brampton,Ontario,Bronze,2024-04-12
+C005,Ava,Thomas,Female,45-54,Toronto,Ontario,Silver,2024-05-08
+C006,Ethan,Martin,Male ,25-34,Etobicoke,Ontario,Bronze,2024-06-20
+C007,Sophia,Lee,Female,18-24,Vaughan,Ontario,Gold,2024-07-14
+C008,Mason,Clark,Male,35-44,Mississauga,Ontario,Silver,2024-08-02
+C009,Isabelle,Hall,Female,25-34,Toronto,Ontario,Gold,2024-09-11
+C010,Lucas,Young,Male,55+,Brampton,Ontario,Bronze,2024-10-03

@@ -1,0 +1,11 @@
+﻿TicketID,CustomerID,OrderID,TicketDate,IssueType,Priority,Status,ResponseTimeHours,ResolutionTimeHours
+T001,C005,O005,2025-02-03,Wrong Size,Medium,Resolved,3,12
+T002,C008,O008,2025-02-21,Refund Delay,High,Resolved,5,36
+T003,C003,O003,2025-01-15,Damaged Product,High,Resolved,2,10
+T004,C001,O001,2025-01-07,Late Delivery,Medium,Resolved,4,20
+T005,C007,O007,2025-02-14,Payment Issue,High,Resolved,1,5
+T006,C006,O006,2025-02-09,Product Not Available,Low,Resolved,6,18
+T007,C010,O010,2025-03-06,Poor Customer Service,Medium,Resolved,8,30
+T008,C002,O002,2025-01-11,Wrong Item,Medium,Resolved,3,16
+T009,C009,O009,2025-03-02,Late Delivery,High,Resolved,7,28
+T010,C004,O004,2025-01-20,Size Issue,Low,Resolved,2,8
