@@ -145,3 +145,19 @@ VALUES
 ('P010', 'Straight Fit Jeans', 'Jeans', 22, 64);
 
 SELECT * FROM Products;
+
+INSERT INTO Customers
+(CustomerID, FirstName, LastName, Gender, AgeGroup, City, LoyaltyTier, SignupDate)
+VALUES
+('C001', 'Emma', 'Wilson', 'Female', '25-34', 'Toronto', 'Gold', '2024-01-15'),
+('C002', 'Liam', 'Brown', 'Male', '18-24', 'Vaughan', 'Silver', '2024-02-10'),
+('C003', 'Olivia', 'Taylor', 'Female', '35-44', 'Mississauga', 'Gold', '2024-03-05'),
+('C004', 'Noah', 'Anderson', 'Male', '25-34', 'Brampton', 'Bronze', '2024-04-12'),
+('C005', 'Ava', 'Thomas', 'Female', '45-54', 'Toronto', 'Silver', '2024-05-08'),
+('C006', 'Ethan', 'Martin', 'Male', '25-34', 'Etobicoke', 'Bronze', '2024-06-20'),
+('C007', 'Sophia', 'Lee', 'Female', '18-24', 'Vaughan', 'Gold', '2024-07-14'),
+('C008', 'Mason', 'Clark', 'Male', '35-44', 'Mississauga', 'Silver', '2024-08-02'),
+('C009', 'Isabella', 'Hall', 'Female', '25-34', 'Toronto', 'Gold', '2024-09-11'),
+('C010', 'Lucas', 'Young', 'Male', '55+', 'Brampton', 'Bronze', '2024-10-03');
+
+SELECT * FROM Customers;
