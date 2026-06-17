@@ -118,3 +118,14 @@ CREATE TABLE Customer_Feedback (
         FOREIGN KEY (OrderID)
         REFERENCES Orders(OrderID)
 );
+
+INSERT INTO Stores
+(StoreID, StoreName, City, Provience)
+VALUES
+('S001', 'PulseStyle Toronto', 'Toronto', 'Ontario'),
+('S002', 'PulseStyle Mississauga', 'Mississauga', 'Ontario'),
+('S003', 'PulseStyle Brampton', 'Brampton', 'Ontario'),
+('S004', 'PulseStyle Vaughan', 'Vaughan', 'Ontario'),
+('S005', 'PulseStyle Etobicoke', 'Etobicoke', 'Ontario');
+
+SELECT * FROM Stores;
