@@ -129,3 +129,19 @@ VALUES
 ('S005', 'PulseStyle Etobicoke', 'Etobicoke', 'Ontario');
 
 SELECT * FROM Stores;
+
+INSERT INTO Products
+(ProductID, ProductName, Category, UnitCost, UnitPrice)
+VALUES
+('P001', 'Floral Summer Dress', 'Dresses', 18, 49),
+('P002', 'Midi Dress', 'Dresses', 22, 59),
+('P003', 'Maxi Dress', 'Dresses', 25, 69),
+('P004', 'Basic T-Shirt', 'Tops', 8, 24),
+('P005', 'Graphic T-Shirt', 'Tops', 10, 29),
+('P006', 'Tank Top', 'Tops', 7, 22),
+('P007', 'Denim Jacket', 'Jackets', 28, 79),
+('P008', 'Bomber Jacket', 'Jackets', 30, 89),
+('P009', 'Skinny Jeans', 'Jeans', 20, 59),
+('P010', 'Straight Fit Jeans', 'Jeans', 22, 64);
+
+SELECT * FROM Products;
