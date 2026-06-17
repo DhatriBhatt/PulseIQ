@@ -33,3 +33,4 @@ ORDER BY TotalTickets DESC;
 SELECT 
     SUM(RefundAmount) AS TotalRefundAmount
 FROM Returns;
+
