@@ -42,3 +42,34 @@ GROUP BY
 ORDER BY
     TotalReturns DESC,
     TotalRefundAmount DESC;
+
+-- Query 4: Customer Lifetime Value (CLV)
+
+SELECT
+    c.CustomerID,
+    c.FirstName,
+    c.LastName,
+    SUM(o.TotalAmount) AS LifetimeRevenue,
+    COUNT(o.OrderID) AS TotalOrders
+FROM Customers c
+JOIN Orders o
+    ON c.CustomerID = o.CustomerID
+GROUP BY
+    c.CustomerID,
+    c.FirstName,
+    c.LastName
+ORDER BY
+    LifetimeRevenue DESC;
+
+-- Query 5: Support Performance vs Customer Satisfaction
+
+SELECT
+    st.TicketID,
+    st.ResponseTimeHours,
+    st.ResolutionTimeHours,
+    cf.Rating,
+    cf.Sentiment
+FROM Support_Tickets st
+JOIN Customer_Feedback cf
+    ON st.OrderID = cf.OrderID
+ORDER BY st.ResponseTimeHours DESC;
