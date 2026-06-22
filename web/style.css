@@ -335,6 +335,22 @@ button{
     transition:0.3s;
     border-color:#38bdf8;
 }
+.project-summary{
+    margin-top:70px;
+    text-align:center;
+}
+
+.project-summary h2{
+    font-size:36px;
+    margin-bottom:20px;
+}
+
+.project-summary p{
+    max-width:900px;
+    margin:auto;
+    color:#cbd5e1;
+    line-height:1.8;
+}
 /* roadmap - page */
 .roadmap-page{
     padding: 80px;
