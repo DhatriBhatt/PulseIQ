@@ -519,6 +519,89 @@ button{
     color:#cbd5e1;
     line-height:1.7;
 }
+.business-impact{
+    padding:80px;
+    text-align:center;
+}
+
+.business-impact h2{
+    font-size:42px;
+    margin-bottom:40px;
+}
+
+.impact-grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:25px;
+    max-width:1100px;
+    margin:auto;
+}
+
+.impact-card{
+    background:#1e293b;
+    border:1px solid #334155;
+    border-radius:18px;
+    padding:30px;
+}
+
+.impact-card h3{
+    color:#38bdf8;
+    margin-bottom:15px;
+}
+
+.impact-card p{
+    color:#cbd5e1;
+    line-height:1.7;
+}
+.dashboard-showcase-card{
+    max-width:1200px;
+    margin:40px auto 0 auto;
+    background:linear-gradient(145deg,#020617,#0f172a);
+    border:1px solid #334155;
+    border-radius:24px;
+    padding:28px;
+    box-shadow:0 25px 60px rgba(0,0,0,0.45);
+}
+
+.dashboard-showcase-card img{
+    width:100%;
+    display:block;
+    border-radius:18px;
+    border:1px solid #1e3a8a;
+    box-shadow:0 0 35px rgba(56,189,248,0.18);
+}
+
+.dashboard-insights{
+    margin-top:28px;
+    background:#020617;
+    border-left:4px solid #38bdf8;
+    border-radius:16px;
+    padding:24px 28px;
+    text-align:left;
+}
+
+.dashboard-insights h3{
+    color:#38bdf8;
+    margin-bottom:15px;
+    font-size:24px;
+}
+
+.dashboard-insights ul{
+    list-style:none;
+}
+
+.dashboard-insights li{
+    color:#cbd5e1;
+    margin-bottom:12px;
+    line-height:1.6;
+}
+
+.dashboard-insights li::before{
+    content:"✔ ";
+    color:#22c55e;
+}
+
+
 /* roadmap - page */
 .roadmap-page{
     padding: 80px;
@@ -694,4 +777,33 @@ footer p{
     .contact-page{
         padding:40px 20px;
     }
+}
+.dashboard-v2,
+.analytics-showcase,
+.business-impact{
+    padding:40px 20px;
+}
+
+.kpi-row,
+.dashboard-grid,
+.impact-grid{
+    grid-template-columns:1fr;
+}
+
+.dashboard-header h1{
+    font-size:34px;
+}
+
+.section-title,
+.analytics-showcase h2,
+.business-impact h2{
+    font-size:30px;
+}
+
+.dashboard-showcase-card{
+    padding:16px;
+}
+
+.dashboard-insights{
+    padding:18px;
 }
