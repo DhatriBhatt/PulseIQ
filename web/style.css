@@ -732,78 +732,95 @@ footer p{
     color:white;
 }
 @media(max-width:768px){
+
+    body{
+        overflow-x:hidden;
+    }
+
     nav{
         flex-direction:column;
         gap:15px;
         padding:20px;
+        position:relative;
     }
 
     nav ul{
-        flex-direction:column;
-        align-items:center;
+        flex-direction:row;
+        flex-wrap:wrap;
+        justify-content:center;
         gap:12px;
     }
 
-    .hero-content h1{
-        font-size:36px;
+    .dashboard-v2{
+        padding:50px 20px;
+        max-width:100%;
     }
 
-    .hero-content p{
+    .dashboard-header h1{
+        font-size:34px;
+        line-height:1.2;
+    }
+
+    .dashboard-header p{
         font-size:16px;
     }
 
-    .metrics,
-    .problem-container,
-    .workflow-container{
-        flex-direction:column;
-        align-items:center;
+    .kpi-row{
+        grid-template-columns:repeat(2, 1fr);
+        gap:15px;
     }
 
-    .features-container,
-    .preview-container{
+    .kpi-box{
+        padding:22px 12px;
+    }
+
+    .kpi-box h3{
+        font-size:30px;
+    }
+
+    .ai-insight-panel{
+        width:100%;
+        padding:22px;
+    }
+
+    .ai-question p{
+        font-size:18px;
+    }
+
+    .dashboard-grid{
         grid-template-columns:1fr;
     }
 
-    .card,
-    .problem-card{
-        width:90%;
+    .analytics-card{
+        padding:22px;
     }
 
-    .about,
-    .problem,
-    .features,
-    .dashboard-page,
-    .roadmap-page,
-    .contact-page{
-        padding:40px 20px;
+    .analytics-showcase{
+        padding:50px 20px;
     }
-}
-.dashboard-v2,
-.analytics-showcase,
-.business-impact{
-    padding:40px 20px;
-}
 
-.kpi-row,
-.dashboard-grid,
-.impact-grid{
-    grid-template-columns:1fr;
-}
+    .dashboard-showcase-card{
+        padding:16px;
+    }
 
-.dashboard-header h1{
-    font-size:34px;
-}
+    .dashboard-showcase-card img{
+        width:100%;
+        height:auto;
+    }
 
-.section-title,
-.analytics-showcase h2,
-.business-impact h2{
-    font-size:30px;
-}
+    .dashboard-insights{
+        padding:18px;
+    }
 
-.dashboard-showcase-card{
-    padding:16px;
-}
+    .business-impact{
+        padding:50px 20px;
+    }
 
-.dashboard-insights{
-    padding:18px;
+    .impact-grid{
+        grid-template-columns:1fr;
+    }
+
+    footer{
+        padding:25px 15px;
+    }
 }
